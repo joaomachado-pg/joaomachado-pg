@@ -1,0 +1,2 @@
+email@email.com.br;senha_antiga;email@email.com.br;senha_nova;
+email@email.com.br2;senha_antiga;email@email.com.br2;senha_nova;
