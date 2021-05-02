@@ -1,0 +1,445 @@
+adddns – Adiciona uma faixa de DNS;
+addfpmail – Adiciona o frontpage mail extension a todas os domínios que não tenham;
+addfpmail2 – Equivalente ao addfpmail;
+addnetmaskips – Adiciona um netmask a todos os IPs que não possuem um netmask;
+addnobodygrp – Adiciona ao grupo nobody (sem dono, neste caso) e ativa o modo seguro;
+addpop – Adiciona uma conta POP;
+addservlets – Adiciona suporte JSP a uma conta (requerimento: servidor tomcat rodando);
+addstatus – Adicionar um usuário que possa verificar o status interno (status do servidor);
+adduser – Adiciona um usuário ao sistema;
+admin – Executa o WHM Lite;
+apachelimits – Adiciona limites ao apache;
+bandwidth –
+betaexim – Instala a última versão do Exim, mas cuidado pois, se houver um beta, ele será instalado;
+biglogcheck – Verifica se existem logs com mais de 2GB de espaço físico;
+bitstest –
+bsdcryptoinstall –  Instala o Crypto Framework; > Exclusivo para servidor FreeBSD!
+bsdldconfig – Configura diretórios apropriados para as bibliotecas do FreeBSD; > Exclusivo para servidor FreeBSD!
+bsdpkgpingtest – Testa a taxa de download dos pacotes do FreeBSD; > Exclusivo para servidor FreeBSD!
+buildbsdexpect – Instala sistema de espera; > Exclusivo para servidor FreeBSD!
+builddomainaddr –
+buildeximconf – Recria o arquivo de configuração do Exim “exim.conf”;
+buildpostgrebsd-dev – Instala o serviço “postgresql”; > Exclusivo para servidor FreeBSD!
+buildpureftproot –
+bupcp –
+chcpass – Script de uso interno do software cPanel; > Não deve ser executado, a menos que você saiba o que está fazendo!
+checkallowoverride –
+checkbadconf – Verifica o arquivo “/usr/local/apache/conf/httpd.conf” em busca de usuários com problemas;
+checkbashshell –
+checkbsdgroups – Verifica e corrige problemas com os usuários privilegiados do proftpd; > Exclusivo para servidor FreeBSD!
+checkccompiler – Verifica se o compilador C do servidor está funcionando sem problemas;
+checkdeadperlso –
+checkerrorlogsafe –
+checkfpkey – Verifica a SUID key do FrontPage extension;
+checkgd – Verifica se o GD está operando normalmente;
+checkgentoousers –
+checkhttpd –
+checkinfopages – Verifica se as páginas suspensas estão com as devidas propriedades;> Equivalente ao comando checksuspendedpages;
+checkinterchange – Não deve ser executado, a menos que você saiba o que está fazendo!
+checklibssl – Verifica se o libssl está operando normalmente para garantir o bom funcionamento dos links simbólicos;
+checklink – Verifica se os links do sistema contém um destino real;
+checklog –
+checkmakeconf –
+checkmaxclients – Verifique se o Apache atingiu o máximo de conexões simultâneas permitidas;
+checkoldperl – Verifica se a versão do seu Perl é antiga;
+checkoldrpm –
+checkrsync – Verifica se o rsync está atualizado;
+checksuexecpatch – Verifica se o serviço mailman está corretamente relacionado ao suexec;
+checksuspendpages – Verifica se as páginas suspensas estão com as devidas propriedades;> Equivalente ao comando checkinfopages;
+checkswup –
+checkup2date – Verifica se o up2date está devidamente configurado; > Exclusivo para servidores RedHat;
+checkyum – Verifica se o yum está configurado corretamente; > Exclusivo para servidores que usam pacotes RPM;
+chkpaths – Verifica se /usr/sbin/chown está corretamente indicado para /bin/chown;
+chownpublichtmls – Change ownership of all users web space to them, which is useful for converting to suexec. Files owned by nobody are deleted.
+chpass – Troca de senha;
+ckillall – Allows you to kill a process (used like killall).
+ckillall2 – Allows you to kill a process.
+cleanandmailformmaillog –
+cleanbw – Remove logs antigos sobre bandwidth;
+cleandns –
+cleandns8 – Limpa os DNSs do arquivo “named.conf”;
+cleangd – Limpa a instalação antiga do GD e instala uma versão mais atualizada;
+cleanmd5 – Corrige problemas do cPanel com o MD5;
+cleanmsglog – Limpa os logs do Exim;
+cleanopenwebmail –
+cleanupcheck –
+cleanupmysqlprivs – Limpa os privilégios impróprios dados ao MySQL;
+compilers – Desabilita o uso de compiladores para usuários sem privilégios para executá-los;
+configips –
+*.cgi – Não deve ser executado, a menos que você saiba o que está fazendo!
+*.c -Não deve ser executado, a menos que você saiba o que está fazendo!
+convert2maildir – Converts mail from mbox to maildir format and installs courier impap and pop (cpimap is removed).
+convertemails – Não deve ser executado, a menos que você saiba o que está fazendo!
+convertemails2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+convertemails5 – Não deve ser executado, a menos que você saiba o que está fazendo!
+courierup – Updates/Installs Courier
+cpanelsync –
+cpbackup – Runs backups.
+cpbackup2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+cptheme – (NOT USED)
+dialog* – (NOT USED)
+distupgrade – Upgrades RedHat to the newest version (for testing only)
+dnscluster – Enables DNS clustering.
+dnsqueuecron – Adds a cron job to dump the DNS queue.
+dns_setup – (OLD)
+dnstransfer – Only if the server has a DNS master (sync with DNS master).
+doomhttpd –
+dotbuffer – Não deve ser executado, a menos que você saiba o que está fazendo!
+downgradefp – Downgrades FrontPage Extensions (to 5.0-0)
+dropmysqldb – Derruba um banco de dados MySQL;
+easyapache – Atualização a versão do Apache (upgrade);
+editquota – Altera a quota dos usuários;
+enablechkservdwebmail – Ativa o serviço de verificação do “webmaild”;
+enablefileprotect – Protege todos os arquivos dos diretórios “/home” se o Apache estiver sendo reinstalado;
+ensurepkg – Instala um pacote feito para FreeBSD;
+ensurerpm – Instala um pacote no formato RPM;
+ensurerpm2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+exchangeacctdb –
+exim3 – Instala o Exim v. 3;
+exim4 – Instala o Exim v. 4;
+exim4-rh73test – Instala o Exim de release número 260; Atenção recurso disponível somente para servidores RedHat;
+eximcron – Creates a cron job for exim_tidy_db.
+eximlocalsend – Ativa ou desativa o envio local de e-mails pelo Exim;
+exim_tidydb – Limpar o arquivo de log do Exim;
+eximup – Installs/Updates exim.
+eximup~ – Não deve ser executado, a menos que você saiba o que está fazendo!
+expectperlinstaller – Não deve ser executado, a menos que você saiba o que está fazendo!
+fetchfile – Não deve ser executado, a menos que você saiba o que está fazendo!
+fetchfpexec –
+fetchgd – Includes libg.so.
+finddev – Não deve ser executado, a menos que você saiba o que está fazendo!
+findhacks – Realiza uma busca pelos trojans mais comuns nos servidores;
+findoddrootprocesses – Lists root processes that may need to be checked out.
+findphpversion – Verifica se a versão utilizada do PHP é a mais atual;
+findtrojans – Faz uma busca profunda por trojans;
+fixadmin –
+fixallcartswithsuexec – Fixes permissions on carts when using suexec.
+fixallinterchangeperm – Fixes permissions on all users’ Interchange Shopping Carts.
+fixbinpath – Makes sure all bin file paths are correct.
+fixbuggynamed – Updates bind to solve any problems with bugs.
+fixcartwithsuexec – Pode ser usado para corrigir um problema com o suexec; Não deve ser executado, a menos que você saiba o que está fazendo!
+fixcgiwrap –
+fixcommonproblems – Verifica e corrige os problemas mais comuns relacionados ao cPanel vs servidor;
+fixetchosts – Fixes problems with /etc/hosts
+fixeverything – Fix common problems and quotas.
+fixfpwml – Fix for .wml errors with frontpage.
+fixheaders – Run if nothing compiles errors with .h files on compile.
+fixhome – (NOT USED) – Unsymlink items.
+fixinterchange – Reinstall interchange Perl modules.
+fixinterchangeperm – fix permissions on a user’s interchange cart.
+fixipsnm – Same as addnetmask ips, but Perl though.
+fixlibnet – Reinstall Bundle::libnet (Perl).
+fixlocalhostwithphp – Change /etc/hosts to work better with PHP 4.2.0 + MySQL.
+fixmailandakopia – (NOT USED)
+fixmailman – Atualiza e reinicia o serviço “mailman”;
+fixmailmanwithsuexec –
+fixmuse – Instala novamente a interface “muse”;
+fixmysql – Corrige problemas relacionados ao MySQL; Não deve ser usado em servidores FreeBSD!
+fixmysqlbsd – Corrige problemas relacionados ao MySQL; > Exclusivo para servidor FreeBSD!
+fixnamed – Atualiza o serviço “named” para utilizar mais de 512 faixas de IP;
+fixndc – Repair redhat’s broken named.conf on 7.2.
+fixndc.new – Não deve ser executado, a menos que você saiba o que está fazendo!
+fixoldlistswithsuexec – Run after enabling suexec on the server to change the URLs that Mailman gives out to ones that don’t give a 500 internal server error.
+fixperl – Corrige link simbólico de usr/local/bin/perl para /usr/bin/perl;
+fixperlscript – Verifica se todos os scripts Perl estão com os módulos relacionados instalados;
+fixpop – Corrige uma conta POP e recria a senha;
+fixproftpdconf – Corrige problemas relacionados ao arquivo de configuração do proftpd (/usr/local/etc/proftpd.conf);
+fixproftpdconf~ – Não deve ser executado, a menos que você saiba o que está fazendo!
+fixproftpddupes – Atualiza o “proftpd” para evitar ou corrigir dupes;
+fixquotas – Corrige problemas de quotas; > Usa muitos recursos do servidor! É recomendado utilizar em horários onde o tráfego do servidor é menos intenso.
+fixrelayd –
+fixrh72ndckey – Não deve ser executado, a menos que você saiba o que está fazendo!
+fixrndc – Fixes named.conf to prevent rndc staus failed.
+fixspamassassinfailedupdate – Instala novamente uma atualização do spamassassin que falhou;
+fixsubconf –
+fixsubdomainlogs – Corrige problemas relacionados aos relatórios de sub-domínios; Ideal para executar quando esses relatórios não aparecem no cPanel;
+fixsuexeccgiscripts – Corrige os problemas com scirpts CGI após a instalação do suexec;
+fixtrojans – (NOT USED)
+fixvaliases – Corrige permissões das valiases;
+fixwebalizer – Corrige problemas comuns com o Webalizer; > Ideal para executar quando o Webalizer para de atualizar; Importante: Esse fix apaga toda a base de dados da conta especificada;
+fixwebmail – (OLD)
+fixwwwdir – (OLD)
+fp3 – Updates the fpexe3 patch.
+fpanonuserpatch – Updates FrontPage extensions to include the anonymous user patch.
+fp-auth –
+fpbtr – (OLD)
+fpsuexec – Não deve ser executado, a menos que você saiba o que está fazendo!
+fpsuexec2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+fpsuexec3 – Não deve ser executado, a menos que você saiba o que está fazendo!
+fpupgrade – Não deve ser executado, a menos que você saiba o que está fazendo!
+ftpcheck – Checks for FTPSSL.
+ftpfetch – Não deve ser executado, a menos que você saiba o que está fazendo!
+ftpput – Não deve ser executado, a menos que você saiba o que está fazendo!
+ftpquaotacheck – Verifica as quotas de todos os usuários FTP;
+ftpsfetch – Não deve ser executado, a menos que você saiba o que está fazendo!
+ftpup – Atualiza o seu servidor FTP;
+ftpupdate – Não deve ser executado, a menos que você saiba o que está fazendo!
+fullhordereset – Resets Horde and displays the current Horde password.
+futexfix – Corrige problemas comuns com o futex;
+futexstartup – Inicia o furtex;
+gcc3 – Installs gcc-3.3.3
+gencrt – Generate a .crt and .csr file.
+gencrt2 – (NOT USED)
+gentomcatlist – Não deve ser executado, a menos que você saiba o que está fazendo!
+gentooportsup –
+gethomedir – Não deve ser executado, a menos que você saiba o que está fazendo!
+getpasswd – Não deve ser executado, a menos que você saiba o que está fazendo!
+getremotecpmove – Não deve ser executado, a menos que você saiba o que está fazendo!
+getrpmfor –
+grabemails – Não deve ser executado, a menos que você saiba o que está fazendo!
+grabhttp – Não deve ser executado, a menos que você saiba o que está fazendo!
+grabhttp2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+grabmysqlprivs – Não deve ser executado, a menos que você saiba o que está fazendo!
+grpck – Checks to see if grpck is working properly.
+hackcheck – Não deve ser executado, a menos que você saiba o que está fazendo!
+hdparmify – Enable dma/irq/32bit HD access, which speeds up IDE drives.
+hdparmon – Turns on hdparm.
+HTTPreq.pm – Não deve ser executado, a menos que você saiba o que está fazendo!
+httpspamdetect –
+icpanel – (OLD)
+initacls – Mounts your file systems with ACL support (make sure your kernel supports ACLs)
+initbyteslog – Não deve ser executado, a menos que você saiba o que está fazendo!
+initfpsuexec – Enable FrontPage suexec support.
+initquotas – Turn on quota support on new drives.
+initsslhttpd – Make sure HTTP starts with SSL.
+initsuexec – Turn on suexec support if suexec is installed.
+installaimicq – Não deve ser executado, a menos que você saiba o que está fazendo!
+installcgipm – Installs CGI.pm
+installcpbsdpkg –
+installcpgentoopkg –
+installdbi – Install Bundle::DBD::mysql.
+installfpfreebsd – Installs FrontPage 5 Extensions on FreeBSD.
+installfpgentoo – Installs FrontPage on Gentoo.
+installgd – Builds GD.
+installipc – Não deve ser executado, a menos que você saiba o que está fazendo!
+installpkg – Installs a FreeBSD package.
+installpostgres – Installs PostrgeSQL.
+installrmmods – (OLD)
+installrpm – Installs a rpm.
+installrpm2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+installspam – Install SpamAssassin.
+installssl – Add a SSL vhost.
+installtree –
+installzendopt – Install zend optimzer.
+installzendopt-freebsd – Install zend optimizer on a freebsd machine.
+ipcheck – Não deve ser executado, a menos que você saiba o que está fazendo!
+ipusage – Não deve ser executado, a menos que você saiba o que está fazendo!
+isdedicatedip – Checks an ip to see if it is dedicated.
+kernelcheck – Não deve ser executado, a menos que você saiba o que está fazendo!
+killacct – Delete an account.
+killbadrpms – Security script that kills insecure RPMs from the server.
+killdns – Delete a DNS zone.
+killdns-dnsadmin –
+killdrrootvhost – Removes the document root for a virtual host.
+killndbm – Remove the broken NDBM_File module from 7.2.
+killpvhost – Removes a virtual host from proftpd.conf.
+killspamkeys – Removes a spam key.
+killsslvhost – Removes a SSL entry for a virtual host.
+killvhost – Delete a vhost.
+listcheck – Checks mailing lists for issues.
+listproblems – Lists common problems.
+listsubdomains – List subdomains.
+mailadmin – (DEAD, OLD)
+maildirmenu – Não deve ser executado, a menos que você saiba o que está fazendo!
+mailman212 – Não deve ser executado, a menos que você saiba o que está fazendo!
+mailperm – Fix almost any mail permission problem.
+mailscannerupdate – Updates MailScanner
+mailtroubleshoot – Guided mail fix.
+makecpphp – Installs php.
+makesecondary – Part of DNS transfer.
+manualupcp – Updates cPanel manually.
+md5crypt – Encrypts a password into MD5.
+mkquotas – OLD
+mkwwwacctconf – Não deve ser executado, a menos que você saiba o que está fazendo!
+mrusersscpcmd –
+mseclocal – Sets up Mandrake’s msec to allow exim to run as mailnull.
+mysqladduserdb – Create a MySQL databse and user.
+mysqlconnectioncheck – Attempts to connect to MySQL, restarts SQL if necessary.
+mysqldeluserdb – Delete a MySQL database and user.
+mysqlinfo – (OLD)
+mysqlpasswd – Change MySQL password.
+mysqlrpmpingtest – Checks your connection speed for downloading mySQL rpms.
+mysqlup – Updates mySQL.
+mysqlup~ – Não deve ser executado, a menos que você saiba o que está fazendo!
+ndbmcheck – Checks to see if the nbdm module is loaded (kills in RedHat 7.2)
+netftpsslpatch – Patches FTPSSL.pm.
+newdomains – (OLD)
+newdomains-sendmail – (OLD)
+newexim – Installs the latest version of exim.
+newftpuser – (NOT USED)
+newpop – (NOT USED)
+nofsck – Make fsck always use -y
+nomodattach – Removes mod_attach from httpd.conf.
+nomodauthmysql -Removes mod_auth_mysql from httpd.conf.
+nomodbwprotect – Removes mod_bwportect from httpd.conf.
+nomodgzipconfmods – Removes mod_gzip from httpd.conf.
+nomodperl – Removes mod_perl from httpd.conf.
+oldaddoncgi2xaddon – Updates old addons to X addons.
+oldaddonconverter – Não deve ser executado, a menos que você saiba o que está fazendo!
+oopcheck – Não deve ser executado, a menos que você saiba o que está fazendo!
+park – Parks a domain.
+patcheximconf – Fixes exim.conf.
+patchposixtypes –
+patchtypes –
+patchtypesizes –
+pedquota – Acessório do editquota (usado para editar quota); Não deve ser executado, a menos que você saiba o que está fazendo!
+perlinstaller – Installs perl.
+phpini – Create a php.ini file.
+phpopenbasectl –
+pingtest – Checks your download time from cPanel mirrors.
+pkgacct – Não deve ser executado, a menos que você saiba o que está fazendo!
+pkgacct~ – Não deve ser executado, a menos que você saiba o que está fazendo!
+pkgacct2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+pkgaccount-ala – backs up an Alab*nza account for transfer.
+pkgacct-ciXost – backs up a ci*ost account for transfer.
+pkgacct-dXm – backs up a d*m account for transfer.
+pkgacct-enXim – backs up an en*im account for transfer.
+pkgacct-ng –
+pkgacctn-ng.orig –
+pkgacct-pXa – backs up a p*a account for transfer.
+popftpuse – (OLD)
+portsup – (FREEBSD BETA)
+postsuexecinstall – (INTERNAL)
+proftpd128 – Installs proftpd-1.2.8.
+pscan – (OLD)
+ptycheck – Fixes permissoins on /dev/ptmx.
+pwck -Verifies the integrity of system authentication information.
+quickfixmysqlbsd – (NOT USED)
+quickkernel – Updates your kernel.
+quicksecure – Quickly kill useless services.
+quotacheck – Não deve ser executado, a menos que você saiba o que está fazendo!
+rasetup – (OLD)
+rawchpass – Não deve ser executado, a menos que você saiba o que está fazendo!
+realadduser – Não deve ser executado, a menos que você saiba o que está fazendo!
+realchpass – Não deve ser executado, a menos que você saiba o que está fazendo!
+realperlinstaller – Não deve ser executado, a menos que você saiba o que está fazendo!
+realrawchpass – Não deve ser executado, a menos que você saiba o que está fazendo!
+rebuildcpanelsslcrt – Rebuilds the cPanel SSL Certificate.
+rebuildcpusers – Rebuilds /var/cpanel/users.
+rebuildetcpasswd – Rebuilds /etc/passwd.
+rebuildeximbsd – Rebuilds exim on FreeBSD.
+rebuildhttpdconffromproftpd – Rebuild httpd.conf from the proftpd.conf file.
+rebuildinterchangecfg – Used after moving a domain with Interchange to the server.
+rebuildippool – Não deve ser executado, a menos que você saiba o que está fazendo!
+rebuildnamedconf – Restore named.conf from files in /var/named.
+rebuildproftpd – Restore proftpd.conf from httpd.conf.
+reinstallmailman – Reinstalls mailman.
+relocatevartousr – Relocates files from /var to /usr in case of disk space issues.
+remdefssl – Remove default SSL vhost.
+reseteximtodefaults – Resets exim’s default settings.
+resethorde –
+resetimappasswds – Resets all imap passwords.
+resetmailmanurls –
+resetquotas – Change quotas to what they should be .
+restartsrv – Restart a service.
+restartsrv_apache – Reinicia o Apache;
+restartsrv_bind – Reinicia o serviço bind;
+restartsrv_clamd – Reinicia o serviço clamd;
+restartsrv_courier – Reinicia o serviço imap;
+restartsrv_cppop – Reinicia o serviço cppop;
+restartsrv_entropychat – Reinicia o serviço entropy chat;
+restartsrv_exim – Reinicia o serviço exim;
+restartsrv_eximstats – Reinicia as estatísticas do Exim;
+restartsrv_ftpserver – Reinicia o servidor FTP;
+restartsrv_ftpserver~ – (INTERNAL)
+restartsrv_httpd – Reinicia o serviço httpd;
+restartsrv_imap – Reinicia o serviço impad;
+restartsrv_inetd – Reinicia o serviço inetd;
+restartsrv_interchange – Reinicia o Interchange Shopping Cart;
+restartsrv_melange – Reinicia o serviço melange chat;
+restartsrv_mysql – Reinicia o serviço mysqld;
+restartsrv_named – Reinicia o serviço named;
+restartsrv_postgres – Reinicia o serviço postgres;
+restartsrv_postgresql – Reinicia o serviço postgresql;
+restartsrv_proftpd – Reinicia o serviço proftpd;
+restartsrv_pureftpd – Reinicia o serviço pure-ftpd;
+restartsrv_spamd – Reinicia o serviço spamd;
+restartsrv_sshd – Reinicia o serviço sshd;
+restartsrv_syslogd – Reinicia o serviço syslogd;
+restartsrv_tomcat – Reinicia o serviço tomcat;
+restartsrv_xinetd – Reinicia o serviço xinetd;
+restoremail – Recupera a caixa de e-mail de algum usuário (caso seja possível);
+restorepkg –
+reswhostmgr – Reinicia o serviço whostmgr;
+rhlupdate – (OLD)
+rpmpreinstall – (INTERNAL)
+rpmup – Faz atualização do gerenciador de pacotes RPM; > Exclusivo para servidores que utilizam pacotes RPM;
+rpmup2 – Não deve ser executado, a menos que você saiba o que está fazendo! > Exclusivo para servidores que utilizam pacotes RPM;
+rpmup3 – Não deve ser executado, a menos que você saiba o que está fazendo! > Exclusivo para servidores que utilizam pacotes RPM;
+rrdtoolinstall – Instala ferramenta RRD;
+rscpmd –
+runlogsnow – (OLD)
+runstatsonce – Atualiza as estatísticas (deve ser adicionado ao crontab para ser utilizado) dos geradores de relatório (analog, webalizer etc);
+runweblogs – Executa os geradores de relatório (analog, webalizer etc) para um determinado usuário;
+ruserssscpcmd – (INTERNAL)
+safeperlinstaller – Instala o serviço Perl em modo seguro;
+safeup2date – Executa o up2date em modo seguro;
+safeyum – Eexecuta o yum em modo seguro;
+scpcmd – Não deve ser executado, a menos que você saiba o que está fazendo!
+searchbadgroups –
+searchreplace – (NOT USED)
+secureit – Remove binários SUID desnecessários ao sistema;
+securemysql – Realiza algumas alterações no MySQL para maior segurança;
+securetmp – Adiciona segurança extra para a pasta tmp na inicialização do servidor;
+selinux_custom_contexts –
+selinuxsetup –
+sendaim – Não deve ser executado, a menos que você saiba o que está fazendo!
+sendicq – Não deve ser executado, a menos que você saiba o que está fazendo!
+setupfp – Install FrontPage 3 on an account.
+setupfp4 – Install FrontPage 4 (2000) installer on an account.
+setupfp5 – Install FrontPage 5 (2002) installer on an account.
+setupfp5.nosueuxec – Install FrontPage 5 (2002) installer on an account when not using suexec.
+setupmakeconf –
+showexelist – Exibe lista de processos executáveis;
+simpleps – Exibe a lista de processos ativos;
+simplesshcmd – Não deve ser executado, a menos que você saiba o que está fazendo!
+smartcheck – Verifica a integridade do hardware; Script pouco eficiente para detectar possíveis problemas;
+smtpmailgdionly – Habilita proteção extra para o SMTP;
+snarf – Não deve ser executado, a menos que você saiba o que está fazendo!
+spamasssassin-cpanel – (NOT USED)
+spamboxdisable – Desabilita a vaixa anti-SPAM (spambox) de todas as contas de e-mail do servidor;
+sscpcmd – Não deve ser executado, a menos que você saiba o que está fazendo!
+ssh2.expect – Não deve ser executado, a menos que você saiba o que está fazendo!
+sshcmd –
+sshcontrol – Não deve ser executado, a menos que você saiba o que está fazendo!
+ssh.expect – Não deve ser executado, a menos que você saiba o que está fazendo!
+stage2fpmail – Não deve ser executado, a menos que você saiba o que está fazendo!
+supportvoidcheck –
+suspendacct – Suspende uma conta específica;
+symlinktodir – Não deve ser executado, a menos que você saiba o que está fazendo!
+sysup – Atualiza o sistema de gerenciamento de pacotes RPM do cPanel;
+telentcrt – (OLD)
+testinf – (OLD)
+trustme – Não deve ser executado, a menos que você saiba o que está fazendo!
+typocheck –
+uf – (OLD)
+unlimitnamed – Instala um patch para o servidor poder utilizar mais de 512 IPs;
+unblockip – Remove um IP bloqueado (IP que tenta acessar o servidor);
+unpkgacct – Não deve ser executado, a menos que você saiba o que está fazendo!
+unsetupfp4 – Remove o FrontPage 4 ou 5 de uma conta;
+unslavenamedconf – Reparar problema com o arquivo “named.conf”, no caso do DNS Master for colocado como local (a reparação possui um delay após ser requerida)
+unsuspendacct – Remove da suspensão uma conta específica;
+upcp – Atualiza o cPanel;
+updated – Verificase há atualização para os scripts (em geral, /scripts/) do cPanel;
+updatedomainips – Não deve ser executado, a menos que você saiba o que está fazendo!
+updatefrontpage – Atualiza o FrontPage extension;
+updatemysqlquota –
+updatenow – Atualiza os scripts (em geral, /scripts/) do cPanel (atualiza sem verificar, diferente do updated); Atenção: Utilize-o apenas se você sabe o que está fazendo, pois o cPanel já atualiza os scripts automaticamente e um problema pode ser gerado devido a diferença de atualizações do cPanel e dos scripts;
+updatephpconf – Atualiza os arquivos de configuração do PHP;
+updateuserdomains – Não deve ser executado, a menos que você saiba o que está fazendo!
+updateuserdomains2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+userdirctl –
+userps – (OLD)
+usersscpcmd – Não deve ser executado, a menos que você saiba o que está fazendo!
+usersscpcmd1 – Não deve ser executado, a menos que você saiba o que está fazendo!
+usersshcmd – Não deve ser executado, a menos que você saiba o que está fazendo!
+verify – (OLD)
+verifyzone – Não deve ser executado, a menos que você saiba o que está fazendo!
+whichrpm – Não deve ser executado, a menos que você saiba o que está fazendo!
+whoowns – Descobre o proprietário de um domínio;
+whostmgrkey – (OLD)
+wwwacct – Cria uma conta;
+wwwacct2 – Não deve ser executado, a menos que você saiba o que está fazendo!
+x* – (OLD)
+xaddonreport – Cria um relatório dos scripts extras instalados (addon scripts);
+zoneexists – Não deve ser executado, a menos que você saiba o que está fazendo!
